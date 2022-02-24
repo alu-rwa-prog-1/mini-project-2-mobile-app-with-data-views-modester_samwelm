@@ -99,12 +99,19 @@ Widget categoryFour = const Padding(
 );
 
 Widget compScienceCategory = TextButton(
+  // Widget build(BuildContext context) {};
   style: TextButton.styleFrom(
     padding: const EdgeInsets.all(16.0),
     primary: Colors.black,
     textStyle: const TextStyle(fontSize: 20),
   ),
-  onPressed: () {},
+  onPressed: () {
+    // BuildContext context;
+    // Navigator.push(
+    //   context,
+    //   MaterialPageRoute(builder: (context) => const Home()),
+    // );
+  },
   child: const Text('Computer Science resources'),
 );
 
@@ -134,7 +141,6 @@ class Home extends StatelessWidget {
       body: ListView(
         children: [
           textSection,
-          categoryOne,
           compScienceCategory,
           categorySection,
           categoryTwo,

@@ -1,7 +1,5 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/semantics.dart';
+import 'home.dart';
 
 class SignInPage extends StatelessWidget {
   const SignInPage({Key? key}) : super(key: key);
@@ -16,7 +14,7 @@ class SignInPage extends StatelessWidget {
             Column(
               children: <Widget>[
                 const SizedBox(height: 100.0),
-                Image.asset('assets/alu_logo.png'),
+                Image.asset('assets/images/alu_logo.png'),
                 const SizedBox(
                   height: 38.0,
                 ),
@@ -56,9 +54,14 @@ class SignInPage extends StatelessWidget {
                   height: 50,
                   disabledColor: Colors.blueAccent,
                   child: RaisedButton(
-                    onPressed: null,
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Home()),
+                      );
+                    },
                     disabledElevation: 4.0,
-                    child: Text(
+                    child: const Text(
                       'Login',
                       style: TextStyle(fontSize: 20.0, color: Colors.white),
                     ),
