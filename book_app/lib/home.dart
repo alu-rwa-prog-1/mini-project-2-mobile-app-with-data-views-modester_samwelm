@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'categories/computer_science.dart';
 
 Widget categorySection = Container(
   padding: const EdgeInsets.symmetric(vertical: 10.0),
@@ -98,22 +99,69 @@ Widget categoryFour = const Padding(
   ),
 );
 
-Widget compScienceCategory = TextButton(
-  // Widget build(BuildContext context) {};
-  style: TextButton.styleFrom(
-    padding: const EdgeInsets.all(16.0),
-    primary: Colors.black,
-    textStyle: const TextStyle(fontSize: 20),
-  ),
-  onPressed: () {
-    // BuildContext context;
-    // Navigator.push(
-    //   context,
-    //   MaterialPageRoute(builder: (context) => const Home()),
-    // );
-  },
-  child: const Text('Computer Science resources'),
-);
+// Widget compScienceCategory = Container(
+// );
+@override
+Widget compScienceCategory(BuildContext context) {
+  return Scaffold(
+    appBar: AppBar(
+      title: const Text('First Route'),
+    ),
+    body: Center(
+      child: ElevatedButton(
+        child: const Text('Open route'),
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => ComputerScience()),
+          );
+        },
+      ),
+    ),
+  );
+}
+
+@override
+Widget build(BuildContext context) {
+  return Scaffold(
+    appBar: AppBar(
+      title: const Text('First Route'),
+    ),
+    body: Center(
+      child: ElevatedButton(
+        child: const Text('Open route'),
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => ComputerScience()),
+          );
+        },
+      ),
+    ),
+  );
+}
+
+// style: ButtonStyle(
+//     foregroundColor:
+//         MaterialStateProperty.all<Color>(const Color(0xFF083663)),
+//     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+//         RoundedRectangleBorder(
+//             borderRadius: BorderRadius.circular(10.0),
+//             side: const BorderSide(color: Color(0xFF083663))))),
+// onPressed: () {
+//   ComputerScience();
+// },
+// child: const Text('Computer Science resources'),
+// );
+
+// style: ButtonStyle(
+//   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+//     RoundedRectangleBorder(
+//       borderRadius: BorderRadius.circular(18.0),
+//       side: BorderSide(color: Colors.red)
+//     )
+//   )
+// )
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -134,23 +182,95 @@ class Home extends StatelessWidget {
               icon: const Icon(Icons.search),
               onPressed: () {
                 // Add action for on pressed
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ComputerScience()),
+                );
               })
         ],
         backgroundColor: const Color(0xFF083663),
       ),
       body: ListView(
-        children: [
+        // children: [
+        //   textSection,
+        //   categorySection,
+        //   categoryTwo,
+        //   categorySection,
+        //   categoryThree,
+        //   categorySection,
+        //   categoryFour,
+        //   categorySection,
+        //   categoryFour,
+        //   categorySection,
+        // ],
+
+        // padding: const EdgeInsets.symmetric(horizontal: 16.0),
+        children: <Widget>[
           textSection,
-          compScienceCategory,
+          Row(
+            children: <Widget>[
+              const Text(
+                'Computer Science resources',
+                softWrap: true,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                ),
+              ),
+              IconButton(
+                  icon: const Icon(Icons.arrow_right),
+                  onPressed: () {
+                    // Add action for on pressed
+                  })
+            ],
+          ),
           categorySection,
-          categoryTwo,
-          categorySection,
-          categoryThree,
-          categorySection,
-          categoryFour,
-          categorySection,
-          categoryFour,
-          categorySection,
+          Row(),
+          Row(),
+          const SizedBox(
+            height: 60.0,
+          ),
+          const TextField(
+            decoration: InputDecoration(
+              labelText: "Email",
+              labelStyle: TextStyle(fontSize: 20.0),
+              filled: true,
+            ),
+          ),
+          const SizedBox(
+            height: 60.0,
+          ),
+          const TextField(
+            obscureText: true,
+            decoration: InputDecoration(
+                labelText: "Password",
+                labelStyle: TextStyle(fontSize: 20.0),
+                filled: true),
+          ),
+          const SizedBox(
+            height: 60.0,
+          ),
+          Column(
+            children: <Widget>[
+              ButtonTheme(
+                height: 50,
+                disabledColor: Colors.blueAccent,
+                child: RaisedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const Home()),
+                    );
+                  },
+                  disabledElevation: 4.0,
+                  child: const Text(
+                    'Login',
+                    style: TextStyle(fontSize: 20.0, color: Colors.white),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );

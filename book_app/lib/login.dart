@@ -20,8 +20,9 @@ class SignInPage extends StatelessWidget {
                 ),
                 const Text('Login with student email',
                     style: TextStyle(
-                      fontSize: 14,
-                      color: Colors.blueAccent,
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF083663),
                     )),
               ],
             ),
@@ -52,7 +53,7 @@ class SignInPage extends StatelessWidget {
               children: <Widget>[
                 ButtonTheme(
                   height: 50,
-                  disabledColor: Colors.blueAccent,
+                  disabledColor: Color(0xFF083663),
                   child: RaisedButton(
                     onPressed: () {
                       Navigator.push(
@@ -63,7 +64,11 @@ class SignInPage extends StatelessWidget {
                     disabledElevation: 4.0,
                     child: const Text(
                       'Login',
-                      style: TextStyle(fontSize: 20.0, color: Colors.white),
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        color: Colors.white,
+                        // backgroundColor: Color(0xFF083663),
+                      ),
                     ),
                   ),
                 ),
