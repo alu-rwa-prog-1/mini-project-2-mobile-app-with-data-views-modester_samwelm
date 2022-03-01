@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home.dart';
+import 'package:book_app/Pages/SignupPage/welcomePage.dart';
 
 class SignInPage extends StatelessWidget {
   const SignInPage({Key? key}) : super(key: key);
@@ -20,7 +20,7 @@ class SignInPage extends StatelessWidget {
                 ),
                 const Text('Login with student email',
                     style: TextStyle(
-                      fontSize: 30,
+                      fontSize: 14,
                       fontWeight: FontWeight.bold,
                       color: Color(0xFF083663),
                     )),
@@ -53,7 +53,7 @@ class SignInPage extends StatelessWidget {
               children: <Widget>[
                 ButtonTheme(
                   height: 50,
-                  disabledColor: Color(0xFF083663),
+                  //disabledColor: Color(0xFF083663),
                   child: RaisedButton(
                     onPressed: () {
                       Navigator.push(
