@@ -14,7 +14,10 @@ class SignInPage extends StatelessWidget {
             Column(
               children: <Widget>[
                 const SizedBox(height: 100.0),
-                Image.asset('assets/images/alu_logo.png'),
+                Image.asset(
+                  'assets/images/alu_logo.png',
+                  fit: BoxFit.cover,
+                ),
                 const SizedBox(
                   height: 38.0,
                 ),
