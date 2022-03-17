@@ -27,7 +27,7 @@ List<CSBooks> booklist = [
       description:
           "Through a series of recent breakthroughs, deep learning has boosted the entire field of machine learning. Now, even programmers who know close to nothing about this technology can use simple, efficient tools to implement programs capable of learning from data. This practical book shows you how. By using concrete examples, minimal theory, and two production-ready Python frameworks—scikit-learn and TensorFlow—author Aurélien Géron helps you gain an intuitive understanding of the concepts and tools for building intelligent systems. You’ll learn a range of techniques, starting with simple linear regression and progressing to deep neural networks. With exercises in each chapter to help you apply what you’ve learned, all you need is programming experience to get started.",
       imageurl:
-          "https://books.google.rw/books/publisher/content?id=bRpYDgAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71mY4ToOLaYm4VyOrU4it3r69sDBd88MQ6jmM5lIVHtt8xpS4LIQsi_AGyKF3oIEtbU-nhkrHzBlnMo5BsWRbzNTxn3_GkKH1Fuu0i5goA39hSCVLSRwizHbMa3Oyits8BZGWvm",
+          "https://m.media-amazon.com/images/S/aplus-media/sota/b31b20f1-9d25-4b54-b56c-8b5313efb566.__CR0,0,300,400_PT0_SX300_V1___.jpg",
       author: 'Aurélien Géron',
       edition: ''),
   CSBooks(
@@ -35,7 +35,7 @@ List<CSBooks> booklist = [
       description:
           "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. Noted software expert Robert C. Martin presents a revolutionary paradigm with Clean Code: A Handbook of Agile Software Craftsmanship . Martin has teamed up with his colleagues from Object Mentor to distill their best agile practice of cleaning code “on the fly” into a book that will instill within you the values of a software craftsman and make you a better programmer—but only if you work at it. What kind of work will you be doing? You'll be reading code—lots of code. And you will be challenged to think about what's right about that code, and what's wrong with it. More importantly, you will be challenged to reassess your professional values and your commitment to your craft. Clean Code is divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code—of transforming a code base that has some problems into one that is sound and efficient. The third part is the payoff: a single chapter containing a list of heuristics and “smells” gathered while creating the case studies. The result is a knowledge base that describes the way we think when we write, read, and clean code.",
       imageurl:
-          "https://books.google.rw/books/publisher/content?id=hjEFCAAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70xBIJIHeZoNavxbBoGs4QQhPt032q3ReEfipSmtosmFJY17sIoRxPgf258znO2wnPIOzFeoYCyVdnlteddH3rlLp0yMRvgaDIg299oOwtDCHTYKO0zbJTjj4Ic2PlEN3O0Ubzq",
+          "https://m.media-amazon.com/images/I/41SH-SvWPxL.jpg",
       author: "Robert C. Martin",
       edition: ''),
   CSBooks(
@@ -43,7 +43,7 @@ List<CSBooks> booklist = [
       description:
           "The system design interview is considered to be the most complex and most difficult technical job interview by many. Those questions are intimidating, but don't worry. It's just that nobody has taken the time to prepare you systematically. We take the time. We go slow. We draw lots of diagrams and use lots of examples. You'll learn step-by-step, one question at a time. Don't miss out.What's inside?",
       imageurl:
-          "https://books.google.rw/books/content?id=b_mUzQEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70uwfCSQCcmBsiuP96aiefwUYSVRmXA2bD4nwOjpRIWd1d37ljsrY8Kc4n3nNOs5eepM4fbVMRnzpkc9-CGxmbjgebRW0FGvddqUlUlHqXHejMcdVMoON85GGlkoPGOqWbhnWB6",
+          "https://m.media-amazon.com/images/I/315sXDgx3YL.jpg",
       author: "Alex Xu",
       edition: ''),
   CSBooks(
@@ -60,7 +60,7 @@ List<CSBooks> booklist = [
       description:
           "A fascinating exploration of how computer algorithms can be applied to our everyday lives. In this dazzlingly interdisciplinary work, acclaimed author Brian Christian and cognitive scientist Tom Griffiths show us how the simple, precise algorithms used by computers can also untangle very human questions. Modern life is constrained by limited space and time, limits that give rise to a particular set of problems. What should we do, or leave undone, in a day or a lifetime? How much messiness should we accept? The authors explain how to have better hunches and when to leave things to chance, how to deal with overwhelming choices and how best to connect with others. From finding a spouse to finding a parking spot, from organizing one's inbox to understanding the workings of human memory, Algorithms To Live By is full of practical takeaways to help you solve common decision-making problems and illuminate the workings of the human mind.",
       imageurl:
-          "https://books.google.rw/books/publisher/content?id=xmeJCgAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73-CqFn_QITqYKUv9hEnnJl8pkVh2KmPQ8ez3ahIQihjXSeK7c93AlQyCzGE7JIgvaj9HbI6l2VW__OsW3xYVXEQ6RIE5g1NJkUHhTIPgvYQlFaNcO3XZM76QqxrTGNV7RrEE1u",
+          "https://images-na.ssl-images-amazon.com/images/I/415UY+ToE-L._SX329_BO1,204,203,200_.jpg",
       author: "Brian Christian, Griffiths",
       edition: ''),
   CSBooks(
@@ -68,7 +68,7 @@ List<CSBooks> booklist = [
       description:
           "Now in the 6th edition, the book gives you the interview preparation you need to get the top software developer jobs. This is a deeply technical book and focuses on the software engineering skills to ace your interview. The book includes 189 programming interview questions and answers, as well as other advice.",
       imageurl:
-          "https://www.syndetics.com/index.aspx?isbn=9780984782857&issn=/LC.JPG&client=austinpl&type=xw12",
+          "https://images-na.ssl-images-amazon.com/images/I/41oYsXjLvZL._SX348_BO1,204,203,200_.jpg",
       author: "McDowell, Gayle Laakmann,",
       edition: '6th Edition'),
   CSBooks(
@@ -84,7 +84,7 @@ List<CSBooks> booklist = [
       description:
           "Excel-erate your productivity with the only guide you'll need to the latest versions of Microsoft Excel. Microsoft Excel offers unsurpassed functionality and accessibility for data exploration and analysis to millions of users around the world. And learning to unlock its full potential is easier than you can imagine with help from Excel All-in-One For Dummies. Follow along with Excel expert and veteran author Paul McFedries as he walks you through every feature and technique you need to know to get the most out of this powerful software. You'll learn how to design worksheets, use formulas and functions, collaborate with colleagues and review their work, create charts and graphics, manage and analyze data, and create macros. Plus, you'll discover all the capabilities Microsoft has included in the newest versions of Excel, including dark mode and accessibility features.",
       imageurl:
-          "https://books.google.rw/books/publisher/content?id=cTBMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70gOD3T3dLTJeEEKTbQ6yx-qLEZbGVZe-1ZtoHMuZlYOpT-X2k62UooyVCap3nzG9CUYgIs0a-03RT6WphOxhVwfA36Fg9py8MmRdMazRq3ghmUeNL0iMuunaEB4YljOEDPmU5R",
+          "https://images-na.ssl-images-amazon.com/images/I/518NlcJKWvL._SX397_BO1,204,203,200_.jpg",
       author: "Paul McFedries, Greg Harvey",
       edition: ''),
 ];
